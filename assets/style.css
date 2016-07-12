@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+}
+.main {
+  margin: 0 auto;
+  width: 1000px;
+  text-align: left;
+}
+.logo{
+  margin: 0 auto;
+  height: 250px;
+  text-align: left;
+}
+.menu{
+  margin: 0 auto;
+  height: 100px;
+  text-align: left;
+}
+.container {
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px #999999;
+  color: white;
+}
+
+.block1 {
+    float: left;
+    width: 700px;
+    min-height: 600px;
+    padding: 10px;
+    background-color: #2ecc71;
+}
+
+.block2 {
+    min-height: 600px;
+    padding: 10px;
+    background-color: #3498db;
+}
+.block3 {
+    padding: 10px;
+    min-height: 400px;
+    background-color: #e74c3c;
+}
