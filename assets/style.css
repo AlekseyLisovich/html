@@ -1,42 +1,141 @@
 body {
   text-align: center;
+  vertical-align: bottom;
+  font-family: 'Roboto', sans-serif;
+  background-color: #FFFFFF;
+  color: #ffffff;
 }
-.main {
-  margin: 0 auto;
-  width: 1000px;
-  text-align: left;
-}
+
 .logo{
-  margin: 0 auto;
-  height: 250px;
-  text-align: left;
+    width: 100%;
+    height: 400px;
 }
+.logo-text{
+  position: relative;
+  bottom: 350px;
+}
+.logo-link{
+  color: #FFFFFF;
+}
+.logo-arrow{
+  position: relative;
+  bottom: 330px;
+  font-size: 60px;
+}
+
 .menu{
-  margin: 0 auto;
-  height: 100px;
-  text-align: left;
+  height: 500px;
+
 }
-.container {
-  border-radius: 5px;
-  box-shadow: 1px 1px 3px #999999;
-  color: white;
+.menu-text{
+    height: 100px;
+}
+.t1{
+    position: relative;
+    bottom: -25px;
+    font-family: 'Montserrat', sans-serif;
+    color: #00838F;
+    font-size: 16pt;
+    font-weight: bold;
+}
+.t2{
+  position: relative;
+  bottom: -25px;
+  font-size: 12pt;
+  color: #90A4AE;
+
+}
+.blocks{
+  min-height: 400px;
+  background-color: #ECEFF1;
+}
+.block1{
+  float: left;
+  width: 33%;
+  border-right: 1px solid #B0BEC5;
+}
+.block-left{
+  position: relative;
+  bottom: -50px;
+  right: -150px;
+}
+.block-right{
+  position: relative;
+  bottom: -50px;
+  left: -150px;
+}
+.block-center{
+  position: relative;
+  bottom: -50px;
+}
+.m1{
+  font-size: 96px;
+}
+.m2{
+  color: #00838F;
+  font-size: 12pt;
+  font-weight: bold;
+}
+.m3{
+  color: #90A4AE;
+  font-size: 10pt;
+}
+.block2{
+  float: left;
+  width: 17%;
+  border-right: 1px solid #B0BEC5;
+}
+.block3{
+  float: left;
+  width: 17%;
+  border-right: 1px solid #B0BEC5;
+}
+.block4{
+  float: left;
+  width: 32.5%;
 }
 
-.block1 {
-    float: left;
-    width: 700px;
-    min-height: 600px;
-    padding: 10px;
-    background-color: #2ecc71;
+
+.content{
+  min-height: 800px;
+  width: 60%;
+}
+.l1{
+  width: 47%;
+  float: left;
+}
+.l2{
+  width: 3%;
+  float: left;
+}
+.l3{
+  width: 3%;
+  float: left;
+}
+.l4{
+  width: 47%;
+  float: left;
+}
+.origin{
+  float: left;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+.orange1{
+  margin-right: 25px;
+}
+.orange2{
+  margin-right: 25px;
+}
+.orange3{
+  margin-right: 25px;
+}
+button{
+  margin: 20px 40px;
+  border-radius: 10px;
+  color: #EF6C00;
 }
 
-.block2 {
-    min-height: 600px;
-    padding: 10px;
-    background-color: #3498db;
-}
-.block3 {
-    padding: 10px;
-    min-height: 400px;
-    background-color: #e74c3c;
+footer{
+  background-color: #BA68C8;
 }
